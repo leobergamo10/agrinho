@@ -68,5 +68,3 @@ function backToTop() {
     });
 }
 
-// Adiciona evento de clique ao botão "Voltar ao Início"
-document.getElementById('backToTopBtn').addEventListener('click', backToTop);
