@@ -69,3 +69,15 @@ function searchItems() {
 
 // Adiciona evento de input ao campo de pesquisa
 document.getElementById("searchInput").addEventListener("input", searchItems);
+
+
+// Função para rolar suavemente de volta para o topo da página
+function backToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+// Adiciona evento de clique ao botão "Voltar ao Início"
+document.getElementById('backToTopBtn').addEventListener('click', backToTop);
