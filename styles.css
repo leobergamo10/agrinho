@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700; /* Mudar a cor ao passar o mouse */
+    color: #ff0000; /* Mudar a cor ao passar o mouse */
 }
 
 /* Estilos para o conteúdo principal */
