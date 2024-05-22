@@ -32,17 +32,6 @@ document.querySelectorAll(".tab-link").forEach(function(tabLink) {
 });
 
 
-// Função para filtrar itens
-function filterItems(category) {
-    var items = document.querySelectorAll(".item");
-    items.forEach(function(item) {
-        if (item.dataset.category === category || category === "all") {
-            item.style.display = "block";
-        } else {
-            item.style.display = "none";
-        }
-    });
-}
 
 // Adiciona evento de clique aos botões de filtro
 document.querySelectorAll(".filter-btn").forEach(function(button) {
